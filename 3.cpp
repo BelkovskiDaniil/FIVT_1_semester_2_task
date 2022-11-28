@@ -58,7 +58,7 @@ int partition(int *arr, int left, int right) {
 
 // Поиск k - ую статистику
 int k_statistic(int* arr, int k, int size) {
-    int left = 0, right = size;
+    int left = 0, right = size - 1;
     while (1) {
 
         if (left == right) {
